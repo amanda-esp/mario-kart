@@ -46,7 +46,6 @@ const Luigi = {
     PONTOS : 0
 };
 
-//função assíncrona: não irá sempre, é possível pausar
 async function rollDice(){
     return Math.floor(Math.random() * 6) + 1;
 };
